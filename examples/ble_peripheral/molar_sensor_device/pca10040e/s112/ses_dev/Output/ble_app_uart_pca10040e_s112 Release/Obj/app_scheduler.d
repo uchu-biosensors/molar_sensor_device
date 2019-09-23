@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/app_scheduler.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/scheduler/app_scheduler.c \
+ /home/noah/uchu/MSD/components/libraries/scheduler/app_scheduler.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
@@ -27,7 +27,7 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/app_scheduler.o: \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/scheduler/app_scheduler.h \
+ /home/noah/uchu/MSD/components/libraries/scheduler/app_scheduler.h \
  ../../../../../../components/libraries/util/app_error.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdio.h \
  ../../../../../../components/libraries/util/app_error_weak.h \

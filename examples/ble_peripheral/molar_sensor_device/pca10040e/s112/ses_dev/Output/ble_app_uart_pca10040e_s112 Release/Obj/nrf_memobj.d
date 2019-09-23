@@ -1,6 +1,6 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_memobj.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/memobj/nrf_memobj.c \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/memobj/nrf_memobj.h \
+ /home/noah/uchu/MSD/components/libraries/memobj/nrf_memobj.c \
+ /home/noah/uchu/MSD/components/libraries/memobj/nrf_memobj.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdlib.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/__crossworks.h \

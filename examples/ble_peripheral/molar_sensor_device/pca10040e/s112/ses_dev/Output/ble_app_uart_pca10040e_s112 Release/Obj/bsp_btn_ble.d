@@ -1,6 +1,6 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/bsp_btn_ble.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/bsp/bsp_btn_ble.c \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/bsp/bsp_btn_ble.h \
+ /home/noah/uchu/MSD/components/libraries/bsp/bsp_btn_ble.c \
+ /home/noah/uchu/MSD/components/libraries/bsp/bsp_btn_ble.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  ../../../../../../components/softdevice/s112/headers/ble.h \
  ../../../../../../components/softdevice/s112/headers/nrf_svc.h \
@@ -25,7 +25,7 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/bsp_btn_ble.o: \
  ../../../../../../modules/nrfx/mdk/nrf52_to_nrf52810.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/softdevice/s112/headers/ble_gatts.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/bsp/bsp.h \
+ /home/noah/uchu/MSD/components/libraries/bsp/bsp.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
  ../../../../../../components/boards/boards.h \
  ../../../../../../modules/nrfx/hal/nrf_gpio.h \

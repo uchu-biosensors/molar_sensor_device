@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrfx_prs.o: \
- /home/noah/uchu/DEV_NRF5_SDK/modules/nrfx/drivers/src/prs/nrfx_prs.c \
+ /home/noah/uchu/MSD/modules/nrfx/drivers/src/prs/nrfx_prs.c \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
@@ -47,7 +47,7 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrfx_prs.o: \
  ../../../../../../components/libraries/util/sdk_resources.h \
  ../../../../../../components/softdevice/s112/headers/nrf_sd_def.h \
  ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
- /home/noah/uchu/DEV_NRF5_SDK/modules/nrfx/drivers/src/prs/nrfx_prs.h \
+ /home/noah/uchu/MSD/modules/nrfx/drivers/src/prs/nrfx_prs.h \
  ../../../../../../integration/nrfx/nrfx_log.h \
  ../../../../../../components/libraries/log/nrf_log.h \
  ../../../../../../components/libraries/util/sdk_common.h \

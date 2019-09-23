@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/app_button.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/button/app_button.c \
+ /home/noah/uchu/MSD/components/libraries/button/app_button.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \

@@ -1,6 +1,6 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/app_util_platform.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/app_util_platform.c \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/app_util_platform.h \
+ /home/noah/uchu/MSD/components/libraries/util/app_util_platform.c \
+ /home/noah/uchu/MSD/components/libraries/util/app_util_platform.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
@@ -20,12 +20,12 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/app_util_platform.o: \
  ../../../../../../components/softdevice/s112/headers/nrf_error.h \
  ../../../../../../components/softdevice/s112/headers/nrf_error_soc.h \
  ../../../../../../components/softdevice/s112/headers/nrf_nvic.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/nrf_assert.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/app_error.h \
+ /home/noah/uchu/MSD/components/libraries/util/nrf_assert.h \
+ /home/noah/uchu/MSD/components/libraries/util/app_error.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdio.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/__crossworks.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/sdk_errors.h \
+ /home/noah/uchu/MSD/components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s112/headers/nrf_error.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/nordic_common.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/app_error_weak.h
+ /home/noah/uchu/MSD/components/libraries/util/nordic_common.h \
+ /home/noah/uchu/MSD/components/libraries/util/app_error_weak.h

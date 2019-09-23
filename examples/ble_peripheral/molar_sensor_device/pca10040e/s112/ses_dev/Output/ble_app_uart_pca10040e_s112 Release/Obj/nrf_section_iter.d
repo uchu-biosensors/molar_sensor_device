@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_section_iter.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/experimental_section_vars/nrf_section_iter.c \
+ /home/noah/uchu/MSD/components/libraries/experimental_section_vars/nrf_section_iter.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
@@ -27,8 +27,8 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_section_iter.o: \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/experimental_section_vars/nrf_section_iter.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/experimental_section_vars/nrf_section.h \
+ /home/noah/uchu/MSD/components/libraries/experimental_section_vars/nrf_section_iter.h \
+ /home/noah/uchu/MSD/components/libraries/experimental_section_vars/nrf_section.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
  ../../../../../../components/libraries/util/app_util.h

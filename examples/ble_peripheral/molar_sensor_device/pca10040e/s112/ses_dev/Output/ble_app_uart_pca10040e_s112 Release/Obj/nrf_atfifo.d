@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_atfifo.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/atomic_fifo/nrf_atfifo.c \
+ /home/noah/uchu/MSD/components/libraries/atomic_fifo/nrf_atfifo.c \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/string.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/__crossworks.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
@@ -20,7 +20,7 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_atfifo.o: \
  ../../../../../../modules/nrfx/mdk/nrf51_to_nrf52810.h \
  ../../../../../../modules/nrfx/mdk/nrf52_to_nrf52810.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/atomic_fifo/nrf_atfifo.h \
+ /home/noah/uchu/MSD/components/libraries/atomic_fifo/nrf_atfifo.h \
  ../config/sdk_config.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
@@ -29,7 +29,7 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_atfifo.o: \
  ../../../../../../components/libraries/log/nrf_log_instance.h \
  ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
  ../../../../../../components/libraries/log/nrf_log_types.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/atomic_fifo/nrf_atfifo_internal.h \
+ /home/noah/uchu/MSD/components/libraries/atomic_fifo/nrf_atfifo_internal.h \
  ../../../../../../components/libraries/log/nrf_log.h \
  ../../../../../../components/libraries/util/sdk_common.h \
  ../../../../../../components/libraries/util/sdk_os.h \

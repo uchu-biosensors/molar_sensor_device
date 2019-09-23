@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_balloc.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/balloc/nrf_balloc.c \
+ /home/noah/uchu/MSD/components/libraries/balloc/nrf_balloc.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
@@ -29,7 +29,7 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_balloc.o: \
  ../../../../../../components/libraries/util/nrf_assert.h \
  ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
  ../../../../../../components/libraries/util/nordic_common.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/balloc/nrf_balloc.h \
+ /home/noah/uchu/MSD/components/libraries/balloc/nrf_balloc.h \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/libraries/util/app_util_platform.h \
  ../../../../../../components/softdevice/s112/headers/nrf_soc.h \

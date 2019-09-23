@@ -1,6 +1,6 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_assert.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/nrf_assert.c \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/nrf_assert.h \
+ /home/noah/uchu/MSD/components/libraries/util/nrf_assert.c \
+ /home/noah/uchu/MSD/components/libraries/util/nrf_assert.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52810.h \
@@ -14,11 +14,11 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_assert.o: \
  ../../../../../../modules/nrfx/mdk/nrf51_to_nrf52810.h \
  ../../../../../../modules/nrfx/mdk/nrf52_to_nrf52810.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/app_error.h \
+ /home/noah/uchu/MSD/components/libraries/util/app_error.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdio.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/__crossworks.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/sdk_errors.h \
+ /home/noah/uchu/MSD/components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s112/headers/nrf_error.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/nordic_common.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/app_error_weak.h
+ /home/noah/uchu/MSD/components/libraries/util/nordic_common.h \
+ /home/noah/uchu/MSD/components/libraries/util/app_error_weak.h

@@ -1,6 +1,6 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/bsp.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/bsp/bsp.c \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/bsp/bsp.h \
+ /home/noah/uchu/MSD/components/libraries/bsp/bsp.c \
+ /home/noah/uchu/MSD/components/libraries/bsp/bsp.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
  ../../../../../../components/boards/boards.h \
@@ -53,5 +53,5 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/bsp.o: \
  ../../../../../../components/boards/pca10040.h \
  ../../../../../../components/libraries/button/app_button.h \
  ../../../../../../components/libraries/util/app_error.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/bsp/bsp_config.h \
+ /home/noah/uchu/MSD/components/libraries/bsp/bsp_config.h \
  ../../../../../../components/libraries/timer/app_timer.h

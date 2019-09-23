@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_ble_qwr.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/nrf_ble_qwr/nrf_ble_qwr.c \
+ /home/noah/uchu/MSD/components/ble/nrf_ble_qwr/nrf_ble_qwr.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
@@ -28,7 +28,7 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_ble_qwr.o: \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdlib.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/nrf_ble_qwr/nrf_ble_qwr.h \
+ /home/noah/uchu/MSD/components/ble/nrf_ble_qwr/nrf_ble_qwr.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/softdevice/s112/headers/ble.h \
  ../../../../../../components/softdevice/s112/headers/nrf_svc.h \

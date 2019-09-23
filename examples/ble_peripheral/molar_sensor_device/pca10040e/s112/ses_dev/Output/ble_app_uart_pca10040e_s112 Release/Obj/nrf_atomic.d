@@ -1,6 +1,6 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_atomic.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/atomic/nrf_atomic.c \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/atomic/nrf_atomic.h \
+ /home/noah/uchu/MSD/components/libraries/atomic/nrf_atomic.c \
+ /home/noah/uchu/MSD/components/libraries/atomic/nrf_atomic.h \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
@@ -28,4 +28,4 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_atomic.o: \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/atomic/nrf_atomic_internal.h
+ /home/noah/uchu/MSD/components/libraries/atomic/nrf_atomic_internal.h

@@ -1,7 +1,7 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/SEGGER_RTT_printf.o: \
- /home/noah/uchu/DEV_NRF5_SDK/external/segger_rtt/SEGGER_RTT_printf.c \
- /home/noah/uchu/DEV_NRF5_SDK/external/segger_rtt/SEGGER_RTT.h \
- /home/noah/uchu/DEV_NRF5_SDK/external/segger_rtt/SEGGER_RTT_Conf.h \
+ /home/noah/uchu/MSD/external/segger_rtt/SEGGER_RTT_printf.c \
+ /home/noah/uchu/MSD/external/segger_rtt/SEGGER_RTT.h \
+ /home/noah/uchu/MSD/external/segger_rtt/SEGGER_RTT_Conf.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/libraries/util/app_util_platform.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \

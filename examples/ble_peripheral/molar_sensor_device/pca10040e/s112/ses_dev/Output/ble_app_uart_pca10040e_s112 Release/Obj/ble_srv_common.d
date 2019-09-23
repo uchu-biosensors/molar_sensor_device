@@ -1,6 +1,6 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/ble_srv_common.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/common/ble_srv_common.c \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/common/ble_srv_common.h \
+ /home/noah/uchu/MSD/components/ble/common/ble_srv_common.c \
+ /home/noah/uchu/MSD/components/ble/common/ble_srv_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
  ../../../../../../components/softdevice/s112/headers/ble_types.h \

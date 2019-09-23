@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/app_fifo.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/fifo/app_fifo.c \
+ /home/noah/uchu/MSD/components/libraries/fifo/app_fifo.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
@@ -27,5 +27,5 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/app_fifo.o: \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/fifo/app_fifo.h \
+ /home/noah/uchu/MSD/components/libraries/fifo/app_fifo.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdlib.h

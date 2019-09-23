@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_log_frontend.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/log/src/nrf_log_frontend.c \
+ /home/noah/uchu/MSD/components/libraries/log/src/nrf_log_frontend.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
@@ -46,7 +46,7 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_log_frontend.o: \
  ../../../../../../components/libraries/log/nrf_log_instance.h \
  ../../../../../../components/libraries/log/nrf_log_types.h \
  ../../../../../../components/libraries/log/nrf_log_types.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/log/src/nrf_log_internal.h \
+ /home/noah/uchu/MSD/components/libraries/log/src/nrf_log_internal.h \
  ../../../../../../components/libraries/log/nrf_log_ctrl.h \
  ../../../../../../components/libraries/log/src/nrf_log_ctrl_internal.h \
  ../../../../../../components/libraries/log/nrf_log_backend_interface.h \

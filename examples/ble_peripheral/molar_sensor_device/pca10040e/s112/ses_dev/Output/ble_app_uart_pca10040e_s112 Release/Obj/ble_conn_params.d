@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/ble_conn_params.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/common/ble_conn_params.c \
+ /home/noah/uchu/MSD/components/ble/common/ble_conn_params.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
@@ -32,7 +32,7 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/ble_conn_params.o: \
  ../../../../../../components/softdevice/s112/headers/ble_hci.h \
  ../../../../../../components/softdevice/s112/headers/ble_err.h \
  ../../../../../../components/softdevice/s112/headers/nrf_error.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/common/ble_conn_params.h \
+ /home/noah/uchu/MSD/components/ble/common/ble_conn_params.h \
  ../../../../../../components/softdevice/s112/headers/ble.h \
  ../../../../../../components/softdevice/s112/headers/nrf_svc.h \
  ../../../../../../components/softdevice/s112/headers/ble_err.h \
@@ -43,12 +43,12 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/ble_conn_params.o: \
  ../../../../../../components/softdevice/s112/headers/ble_gatt.h \
  ../../../../../../components/softdevice/s112/headers/ble_gattc.h \
  ../../../../../../components/softdevice/s112/headers/ble_gatts.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/common/ble_srv_common.h \
+ /home/noah/uchu/MSD/components/ble/common/ble_srv_common.h \
  ../../../../../../components/softdevice/s112/headers/ble_types.h \
  ../../../../../../components/libraries/util/app_util.h \
  ../../../../../../components/softdevice/s112/headers/ble_gap.h \
  ../../../../../../components/softdevice/s112/headers/ble_gatt.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/common/ble_conn_state.h \
+ /home/noah/uchu/MSD/components/ble/common/ble_conn_state.h \
  ../../../../../../components/libraries/atomic/nrf_atomic.h \
  ../../../../../../components/softdevice/common/nrf_sdh_ble.h \
  ../../../../../../components/libraries/experimental_section_vars/nrf_section_iter.h \

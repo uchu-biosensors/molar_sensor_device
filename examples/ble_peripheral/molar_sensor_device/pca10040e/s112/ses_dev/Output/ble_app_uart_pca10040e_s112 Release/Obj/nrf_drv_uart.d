@@ -1,6 +1,6 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_drv_uart.o: \
- /home/noah/uchu/DEV_NRF5_SDK/integration/nrfx/legacy/nrf_drv_uart.c \
- /home/noah/uchu/DEV_NRF5_SDK/integration/nrfx/legacy/nrf_drv_uart.h \
+ /home/noah/uchu/MSD/integration/nrfx/legacy/nrf_drv_uart.c \
+ /home/noah/uchu/MSD/integration/nrfx/legacy/nrf_drv_uart.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \

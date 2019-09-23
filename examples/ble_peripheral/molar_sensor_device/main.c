@@ -3,15 +3,15 @@
  *
  * All rights reserved.
  *
- * Redistribution and use in source and binary forms, with or without modification,
- * are permitted provided that the following conditions are met:
+ * Redistribution and use in source and binary forms, with or without 
+ * modification, are permitted provided that the following conditions are met:
  *
- * 1. Redistributions of source code must retain the above copyright notice, this
- *    list of conditions and the following disclaimer.
+ * 1. Redistributions of source code must retain the above copyright notice, 
+ *    this list of conditions and the following disclaimer.
  *
  * 2. Redistributions in binary form, except as embedded into a Nordic
- *    Semiconductor ASA integrated circuit in a product or a software update for
- *    such product, must reproduce the above copyright notice, this list of
+ *    Semiconductor ASA integrated circuit in a product or a software update 
+ *    for such product, must reproduce the above copyright notice, this list of
  *    conditions and the following disclaimer in the documentation and/or other
  *    materials provided with the distribution.
  *
@@ -22,19 +22,20 @@
  * 4. This software, with or without modification, must only be used with a
  *    Nordic Semiconductor ASA integrated circuit.
  *
- * 5. Any software provided in binary form under this license must not be reverse
- *    engineered, decompiled, modified and/or disassembled.
+ * 5. Any software provided in binary form under this license must not be 
+ *    reverse engineered, decompiled, modified and/or disassembled.
  *
- * THIS SOFTWARE IS PROVIDED BY NORDIC SEMICONDUCTOR ASA "AS IS" AND ANY EXPRESS
- * OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- * OF MERCHANTABILITY, NONINFRINGEMENT, AND FITNESS FOR A PARTICULAR PURPOSE ARE
- * DISCLAIMED. IN NO EVENT SHALL NORDIC SEMICONDUCTOR ASA OR CONTRIBUTORS BE
- * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
- * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
- * GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
- * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
- * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
- * OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ * THIS SOFTWARE IS PROVIDED BY NORDIC SEMICONDUCTOR ASA "AS IS" AND ANY 
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+ * WARRANTIES OF MERCHANTABILITY, NONINFRINGEMENT, AND FITNESS FOR A PARTICULAR
+ * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL NORDIC SEMICONDUCTOR ASA OR 
+ * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+ * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+ * PROCUREMENT OF  SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR  
+ * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF  
+ * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  */
 /** @file
@@ -99,32 +100,41 @@
 #endif
 
 
-
-#define APP_BLE_CONN_CFG_TAG            1                                           /**< A tag identifying the SoftDevice BLE configuration. */
-
-#define DEVICE_NAME                     "UCHU_PH_SYSTEM"                            /**< Name of device. Will be included in the advertising data. */
-#define NUS_SERVICE_UUID_TYPE           BLE_UUID_TYPE_VENDOR_BEGIN                  /**< UUID type for the Nordic UART Service (vendor specific). */
-
-#define APP_BLE_OBSERVER_PRIO           3                                           /**< Application's BLE observer priority. You shouldn't need to modify this value. */
-
-#define APP_ADV_INTERVAL                480                                         /**< The advertising interval (in units of 0.625 ms. This value corresponds to 40 ms). */
-
-#define APP_ADV_DURATION                18000                                       /**< The advertising duration (180 seconds) in units of 10 milliseconds. */
-
-#define MIN_CONN_INTERVAL               MSEC_TO_UNITS(20, UNIT_1_25_MS)             /**< Minimum acceptable connection interval (20 ms), Connection interval uses 1.25 ms units. */
-#define MAX_CONN_INTERVAL               MSEC_TO_UNITS(75, UNIT_1_25_MS)             /**< Maximum acceptable connection interval (75 ms), Connection interval uses 1.25 ms units. */
-#define SLAVE_LATENCY                   0                                           /**< Slave latency. */
-#define CONN_SUP_TIMEOUT                MSEC_TO_UNITS(4000, UNIT_10_MS)             /**< Connection supervisory timeout (4 seconds), Supervision Timeout uses 10 ms units. */
-#define FIRST_CONN_PARAMS_UPDATE_DELAY  APP_TIMER_TICKS(5000)                       /**< Time from initiating event (connect or start of notification) to first time sd_ble_gap_conn_param_update is called (5 seconds). */
-#define NEXT_CONN_PARAMS_UPDATE_DELAY   APP_TIMER_TICKS(30000)                      /**< Time between each call to sd_ble_gap_conn_param_update after the first call (30 seconds). */
-#define MAX_CONN_PARAMS_UPDATE_COUNT    3                                           /**< Number of attempts before giving up the connection parameter negotiation. */
-
-#define DEAD_BEEF                       0xDEADBEEF                                  /**< Value used as error code on stack dump, can be used to identify stack location on stack unwind. */
-
-#define UART_TX_BUF_SIZE                256                                         /**< UART TX buffer size. */
-#define UART_RX_BUF_SIZE                256                                         /**< UART RX buffer size. */
-
-#define SAMPLES_IN_BUFFER               11                                          /**< SAADC buffer > */
+/**< A tag identifying the SoftDevice BLE configuration. */
+#define APP_BLE_CONN_CFG_TAG            1
+/**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME                     "UCHU_PH_SYSTEM" 
+/**< UUID type for the Nordic UART Service (vendor specific). */
+#define NUS_SERVICE_UUID_TYPE           BLE_UUID_TYPE_VENDOR_BEGIN 
+/**< Application's BLE observer priority. Shouldn't need to modify. */
+#define APP_BLE_OBSERVER_PRIO           3  
+/**< The advertising interval (in units of 0.625 ms; 40ms here). */
+#define APP_ADV_INTERVAL                480  
+/**< The advertising duration (180 seconds) in units of 10 milliseconds. */
+#define APP_ADV_DURATION                18000 
+/**< Minimum acceptable connection interval (20 ms), uses 1.25 ms units. */
+#define MIN_CONN_INTERVAL               MSEC_TO_UNITS(20, UNIT_1_25_MS)
+/**< Maximum acceptable connection interval (75 ms), uses 1.25 ms units. */
+#define MAX_CONN_INTERVAL               MSEC_TO_UNITS(75, UNIT_1_25_MS)
+/**< Slave latency. */             
+#define SLAVE_LATENCY                   0   
+/**< Connection supervisory timeout (4 seconds), uses 10 ms units. */ 
+#define CONN_SUP_TIMEOUT                MSEC_TO_UNITS(4000, UNIT_10_MS)  
+/**< Time from initiating event (connect or start of notification) to first 
+     time sd_ble_gap_conn_param_update is called (5 seconds). */  
+#define FIRST_CONN_PARAMS_UPDATE_DELAY  APP_TIMER_TICKS(5000)   
+/**< Time between calls to sd_ble_gap_conn_param_update after first (ms) */
+#define NEXT_CONN_PARAMS_UPDATE_DELAY   APP_TIMER_TICKS(30000) 
+/**< Num of attempts before giving up the connection parameter negotiation. */
+#define MAX_CONN_PARAMS_UPDATE_COUNT    3 
+/**< Used as error code on stack dump, used to identify stack location. */
+#define DEAD_BEEF                       0xDEADBEEF 
+/**< UART TX buffer size. */
+#define UART_TX_BUF_SIZE                256 
+/**< UART RX buffer size. */                
+#define UART_RX_BUF_SIZE                256 
+ /**< SAADC buffer > */
+#define SAMPLES_IN_BUFFER               11 
 
 /* UNDEFS FOR DEBUGGING */
 #undef RX_PIN_NUMBER
@@ -132,16 +142,26 @@
 #undef LED_4          
 #undef LED_STOP       
 
-BLE_NUS_DEF(m_nus, NRF_SDH_BLE_TOTAL_LINK_COUNT);                                   /**< BLE NUS service instance. */
-NRF_BLE_GATT_DEF(m_gatt);                                                           /**< GATT module instance. */
-NRF_BLE_QWR_DEF(m_qwr);                                                             /**< Context for the Queued Write module.*/
-BLE_ADVERTISING_DEF(m_advertising);                                                 /**< Advertising module instance. */
+/**< BLE NUS service instance. */
+BLE_NUS_DEF(m_nus, NRF_SDH_BLE_TOTAL_LINK_COUNT);
+/**< GATT module instance. */ 
+NRF_BLE_GATT_DEF(m_gatt);   
+/**< Context for the Queued Write module.*/
+NRF_BLE_QWR_DEF(m_qwr);   
+/**< Advertising module instance. */
+BLE_ADVERTISING_DEF(m_advertising);  
+/**< Create the app_timer instance >**/   
 APP_TIMER_DEF(m_timer_id);
-APP_PWM_INSTANCE(m_isfet_pwm, 2);                                                   /**< Create the instance "PWM2" using TIMER2. */
+/**< Create the instance "PWM2" using TIMER2. */
+APP_PWM_INSTANCE(m_isfet_pwm, 2);
 
-static uint16_t   m_conn_handle          = BLE_CONN_HANDLE_INVALID;                 /**< Handle of the current connection. */
-static uint16_t   m_ble_nus_max_data_len = BLE_GATT_ATT_MTU_DEFAULT - 3;            /**< Maximum length of data (in bytes) that can be transmitted to the peer by the Nordic UART service module. */
-static ble_uuid_t m_adv_uuids[]          =                                          /**< Universally unique service identifier. */
+/**< Handle of the current connection. */
+static uint16_t   m_conn_handle          = BLE_CONN_HANDLE_INVALID;
+/**< Maximum length of data (in bytes) that can be transmitted to the peer by 
+     the Nordic UART service module. */                 
+static uint16_t   m_ble_nus_max_data_len = BLE_GATT_ATT_MTU_DEFAULT - 3;
+/**< Universally unique service identifier. */            
+static ble_uuid_t m_adv_uuids[]          =
 {
     {BLE_UUID_NUS_SERVICE, NUS_SERVICE_UUID_TYPE}
 };
@@ -184,13 +204,13 @@ static inline void saadc_init                 (void);
 
 /**@brief Function for assert macro callback.
  *
- * @details This function will be called in case of an assert in the SoftDevice.
+ * @details This function will be called in case o assert in the SoftDevice.
  *
  * @warning This handler is an example only and does not fit a final product. 
- *          You need to analyse how your product is supposed to react in case of 
- *          Assert.
- * @warning On assert from the SoftDevice, the system can only recover on reset.
- *
+ *          You need to analyse how your product is supposed to react in 
+ *          case of Assert.
+ * @warning On assert from the SoftDevice, system can only recover on reset.
+ * 
  * @param[in] line_num    Line number of the failing ASSERT call.
  * @param[in] p_file_name File name of the failing ASSERT call.
  */
@@ -246,7 +266,7 @@ static inline void gap_params_init(void)
  * @details A pointer to this function will be passed to each service which may 
  *          need to inform the application about an error.
  *
- * @param[in] nrf_error Error code containing information about what went wrong.
+ * @param[in] nrf_error Error code containing info about what went wrong.
  */
 static void nrf_qwr_error_handler(uint32_t nrf_error)
 {
@@ -286,7 +306,8 @@ static inline void nus_data_handler(ble_nus_evt_t * p_evt)
                 }
             } while (err_code == NRF_ERROR_BUSY);
         }
-        if (p_evt->params.rx_data.p_data[p_evt->params.rx_data.length - 1] == '\r')
+        if (p_evt->params.rx_data.p_data[p_evt->params.rx_data.length - 1] 
+                                                                       == '\r')
         {
             while (app_uart_put('\n') == NRF_ERROR_BUSY);
         }
@@ -296,7 +317,7 @@ static inline void nus_data_handler(ble_nus_evt_t * p_evt)
 /**@snippet [Handling the data received over BLE] */
 
 
-/**@brief Function for initializing services that will be used by the application.
+/**@brief Function for initializing services that will be used by the app.
  */
 static void services_init(void)
 {
@@ -338,7 +359,7 @@ static void on_conn_params_evt(ble_conn_params_evt_t * p_evt)
     if (p_evt->evt_type == BLE_CONN_PARAMS_EVT_FAILED)
     {
         err_code = sd_ble_gap_disconnect(m_conn_handle, 
-                                            BLE_HCI_CONN_INTERVAL_UNACCEPTABLE);
+                                         BLE_HCI_CONN_INTERVAL_UNACCEPTABLE);
         APP_ERROR_CHECK(err_code);
     }
 }
@@ -346,7 +367,7 @@ static void on_conn_params_evt(ble_conn_params_evt_t * p_evt)
 
 /**@brief Function for handling errors from the Connection Parameters module.
  *
- * @param[in] nrf_error  Error code containing information about what went wrong.
+ * @param[in] nrf_error  Error code containing info about what went wrong.
  */
 static void conn_params_error_handler(uint32_t nrf_error)
 {
@@ -393,8 +414,8 @@ static void sleep_mode_enter(void)
 
 /**@brief Function for handling advertising events.
  *
- * @details This function will be called for advertising events which are passed 
- *          to the application.
+ * @details This function will be called for advertising events which are  
+ *          passed to the application.
  *
  * @param[in] ble_adv_evt  Advertising event.
  */
@@ -458,7 +479,7 @@ static void ble_evt_handler(ble_evt_t const * p_ble_evt, void * p_context)
                 .tx_phys = BLE_GAP_PHY_AUTO,
             };
             err_code = sd_ble_gap_phy_update(p_ble_evt->evt.gap_evt.conn_handle, 
-                                                                         &phys);
+                                             &phys);
             APP_ERROR_CHECK(err_code);
         } break;
 
@@ -480,8 +501,8 @@ static void ble_evt_handler(ble_evt_t const * p_ble_evt, void * p_context)
         case BLE_GATTC_EVT_TIMEOUT:
             // Disconnect on GATT Client timeout event.
             err_code = 
-                sd_ble_gap_disconnect(p_ble_evt->evt.gattc_evt.conn_handle,
-                                      BLE_HCI_REMOTE_USER_TERMINATED_CONNECTION);
+              sd_ble_gap_disconnect(p_ble_evt->evt.gattc_evt.conn_handle,
+                                    BLE_HCI_REMOTE_USER_TERMINATED_CONNECTION);
             CONNECTION_MADE = false;
             APP_ERROR_CHECK(err_code);
             break;
@@ -489,8 +510,8 @@ static void ble_evt_handler(ble_evt_t const * p_ble_evt, void * p_context)
         case BLE_GATTS_EVT_TIMEOUT:
             // Disconnect on GATT Server timeout event.
             err_code = 
-                sd_ble_gap_disconnect(p_ble_evt->evt.gatts_evt.conn_handle,
-                                      BLE_HCI_REMOTE_USER_TERMINATED_CONNECTION);
+              sd_ble_gap_disconnect(p_ble_evt->evt.gatts_evt.conn_handle,
+                                    BLE_HCI_REMOTE_USER_TERMINATED_CONNECTION);
             CONNECTION_MADE = false;
             APP_ERROR_CHECK(err_code);
             break;
@@ -504,7 +525,7 @@ static void ble_evt_handler(ble_evt_t const * p_ble_evt, void * p_context)
 
 /**@brief Function for the SoftDevice initialization.
  *
- * @details This function initializes the SoftDevice and the BLE event interrupt.
+ * @details This function initializes the SoftDevice and BLE event interrupt.
  */
 static void ble_stack_init(void)
 {
@@ -944,7 +965,7 @@ static inline uint8_t* create_bluetooth_packet(uint32_t ph_val,
         // Convert temp number to appropriate byte array
         if(AVG_TEMP_VAL > 99) 
             packet = format_bluetooth_packet(onedig_PH_data, threedig_TEMP_data,
-                                                total_packet, total_size);                    
+                                                total_packet, total_size);
         else if(AVG_TEMP_VAL > 9) 
             packet = format_bluetooth_packet(onedig_PH_data, twodig_TEMP_data,
                                                 total_packet, total_size);

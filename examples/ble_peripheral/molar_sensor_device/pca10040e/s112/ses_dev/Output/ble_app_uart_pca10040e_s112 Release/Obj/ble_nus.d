@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/ble_nus.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/ble_services/ble_nus/ble_nus.c \
+ /home/noah/uchu/MSD/components/ble/ble_services/ble_nus/ble_nus.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
@@ -38,7 +38,7 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/ble_nus.o: \
  ../../../../../../components/softdevice/s112/headers/ble_gatt.h \
  ../../../../../../components/softdevice/s112/headers/ble_gattc.h \
  ../../../../../../components/softdevice/s112/headers/ble_gatts.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/ble_services/ble_nus/ble_nus.h \
+ /home/noah/uchu/MSD/components/ble/ble_services/ble_nus/ble_nus.h \
  ../../../../../../components/ble/common/ble_srv_common.h \
  ../../../../../../components/softdevice/s112/headers/ble_types.h \
  ../../../../../../components/libraries/util/app_util.h \

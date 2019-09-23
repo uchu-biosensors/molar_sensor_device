@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/main.o: \
- /home/noah/uchu/DEV_NRF5_SDK/examples/ble_peripheral/UCHU_UART_STABLE/main.c \
+ /home/noah/uchu/MSD/examples/ble_peripheral/molar_sensor_device/main.c \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/string.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/__crossworks.h \

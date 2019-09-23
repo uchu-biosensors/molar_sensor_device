@@ -1,6 +1,6 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_drv_ppi.o: \
- /home/noah/uchu/DEV_NRF5_SDK/integration/nrfx/legacy/nrf_drv_ppi.c \
- /home/noah/uchu/DEV_NRF5_SDK/integration/nrfx/legacy/nrf_drv_ppi.h \
+ /home/noah/uchu/MSD/integration/nrfx/legacy/nrf_drv_ppi.c \
+ /home/noah/uchu/MSD/integration/nrfx/legacy/nrf_drv_ppi.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_ppi.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \

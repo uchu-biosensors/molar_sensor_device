@@ -1,6 +1,6 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/app_error_weak.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/app_error_weak.c \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/app_error.h \
+ /home/noah/uchu/MSD/components/libraries/util/app_error_weak.c \
+ /home/noah/uchu/MSD/components/libraries/util/app_error.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdio.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/__crossworks.h \
@@ -17,10 +17,10 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/app_error_weak.o: \
  ../../../../../../modules/nrfx/mdk/nrf51_to_nrf52810.h \
  ../../../../../../modules/nrfx/mdk/nrf52_to_nrf52810.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/sdk_errors.h \
+ /home/noah/uchu/MSD/components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s112/headers/nrf_error.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/nordic_common.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/app_error_weak.h \
+ /home/noah/uchu/MSD/components/libraries/util/nordic_common.h \
+ /home/noah/uchu/MSD/components/libraries/util/app_error_weak.h \
  ../../../../../../components/libraries/log/nrf_log.h \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/string.h \
@@ -55,7 +55,7 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/app_error_weak.o: \
  ../../../../../../components/softdevice/s112/headers/nrf_error_soc.h \
  ../../../../../../components/softdevice/s112/headers/nrf_nvic.h \
  ../../../../../../components/libraries/util/app_error.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/util/app_util_platform.h \
+ /home/noah/uchu/MSD/components/libraries/util/app_util_platform.h \
  ../../../../../../components/softdevice/s112/headers/nrf_sdm.h \
  ../../../../../../components/softdevice/s112/headers/nrf_error_sdm.h \
  ../../../../../../components/softdevice/s112/headers/nrf_soc.h

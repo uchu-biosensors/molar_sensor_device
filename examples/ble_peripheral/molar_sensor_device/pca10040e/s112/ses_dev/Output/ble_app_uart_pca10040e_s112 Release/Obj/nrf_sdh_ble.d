@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_sdh_ble.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/softdevice/common/nrf_sdh_ble.c \
+ /home/noah/uchu/MSD/components/softdevice/common/nrf_sdh_ble.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
@@ -27,7 +27,7 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_sdh_ble.o: \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/softdevice/common/nrf_sdh_ble.h \
+ /home/noah/uchu/MSD/components/softdevice/common/nrf_sdh_ble.h \
  ../../../../../../components/libraries/util/app_util.h \
  ../../../../../../components/softdevice/s112/headers/ble.h \
  ../../../../../../components/softdevice/s112/headers/nrf_svc.h \
@@ -45,7 +45,7 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_sdh_ble.o: \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
  ../../../../../../components/libraries/util/sdk_errors.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/softdevice/common/nrf_sdh.h \
+ /home/noah/uchu/MSD/components/softdevice/common/nrf_sdh.h \
  ../../../../../../components/libraries/util/app_error.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdio.h \
  ../../../../../../components/libraries/util/app_error_weak.h \

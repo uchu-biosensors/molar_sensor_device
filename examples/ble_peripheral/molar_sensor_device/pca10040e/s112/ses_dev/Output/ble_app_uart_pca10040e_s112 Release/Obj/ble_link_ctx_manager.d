@@ -1,6 +1,6 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/ble_link_ctx_manager.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/ble_link_ctx_manager/ble_link_ctx_manager.c \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/ble_link_ctx_manager/ble_link_ctx_manager.h \
+ /home/noah/uchu/MSD/components/ble/ble_link_ctx_manager/ble_link_ctx_manager.c \
+ /home/noah/uchu/MSD/components/ble/ble_link_ctx_manager/ble_link_ctx_manager.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  ../../../../../../components/ble/common/ble_conn_state.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \

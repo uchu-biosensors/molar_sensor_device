@@ -1,6 +1,6 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_ringbuf.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/ringbuf/nrf_ringbuf.c \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/ringbuf/nrf_ringbuf.h \
+ /home/noah/uchu/MSD/components/libraries/ringbuf/nrf_ringbuf.c \
+ /home/noah/uchu/MSD/components/libraries/ringbuf/nrf_ringbuf.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  ../../../../../../components/libraries/atomic/nrf_atomic.h \
  ../../../../../../components/libraries/util/sdk_common.h \

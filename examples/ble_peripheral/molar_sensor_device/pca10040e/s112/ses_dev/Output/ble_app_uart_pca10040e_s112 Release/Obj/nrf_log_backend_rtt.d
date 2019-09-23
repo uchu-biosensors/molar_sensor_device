@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_log_backend_rtt.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/log/src/nrf_log_backend_rtt.c \
+ /home/noah/uchu/MSD/components/libraries/log/src/nrf_log_backend_rtt.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
@@ -47,13 +47,13 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_log_backend_rtt.o: \
  ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/libraries/log/nrf_log_types.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/log/src/nrf_log_backend_serial.h \
+ /home/noah/uchu/MSD/components/libraries/log/src/nrf_log_backend_serial.h \
  ../../../../../../components/libraries/log/nrf_log_backend_interface.h \
  ../../../../../../external/fprintf/nrf_fprintf.h \
  ../../../../../../components/libraries/log/nrf_log_str_formatter.h \
  ../../../../../../components/libraries/log/nrf_log_ctrl.h \
  ../../../../../../components/libraries/log/src/nrf_log_ctrl_internal.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/log/src/nrf_log_internal.h \
+ /home/noah/uchu/MSD/components/libraries/log/src/nrf_log_internal.h \
  ../../../../../../components/libraries/log/nrf_log_types.h \
  ../../../../../../components/libraries/delay/nrf_delay.h \
  ../../../../../../modules/nrfx/nrfx.h \

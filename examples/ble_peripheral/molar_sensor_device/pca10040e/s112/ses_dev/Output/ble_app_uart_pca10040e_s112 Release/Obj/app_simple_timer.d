@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/app_simple_timer.o: \
- /home/noah/uchu/DEV_NRF5_SDK/modules/nrfx/drivers/src/app_simple_timer.c \
+ /home/noah/uchu/MSD/modules/nrfx/drivers/src/app_simple_timer.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \

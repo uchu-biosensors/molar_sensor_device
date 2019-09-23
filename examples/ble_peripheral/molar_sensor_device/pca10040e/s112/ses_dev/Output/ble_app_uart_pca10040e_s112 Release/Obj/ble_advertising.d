@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/ble_advertising.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/ble_advertising/ble_advertising.c \
+ /home/noah/uchu/MSD/components/ble/ble_advertising/ble_advertising.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
@@ -39,7 +39,7 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/ble_advertising.o: \
  ../../../../../../components/softdevice/s112/headers/ble_gatt.h \
  ../../../../../../components/softdevice/s112/headers/ble_gattc.h \
  ../../../../../../components/softdevice/s112/headers/ble_gatts.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/ble_advertising/ble_advertising.h \
+ /home/noah/uchu/MSD/components/ble/ble_advertising/ble_advertising.h \
  ../../../../../../components/softdevice/s112/headers/ble_gap.h \
  ../../../../../../components/softdevice/s112/headers/ble_gattc.h \
  ../../../../../../components/softdevice/s112/headers/nrf_soc.h \

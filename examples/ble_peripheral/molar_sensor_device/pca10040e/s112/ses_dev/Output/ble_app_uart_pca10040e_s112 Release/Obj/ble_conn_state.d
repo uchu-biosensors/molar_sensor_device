@@ -1,6 +1,6 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/ble_conn_state.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/common/ble_conn_state.c \
- /home/noah/uchu/DEV_NRF5_SDK/components/ble/common/ble_conn_state.h \
+ /home/noah/uchu/MSD/components/ble/common/ble_conn_state.c \
+ /home/noah/uchu/MSD/components/ble/common/ble_conn_state.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  ../../../../../../components/softdevice/s112/headers/ble.h \

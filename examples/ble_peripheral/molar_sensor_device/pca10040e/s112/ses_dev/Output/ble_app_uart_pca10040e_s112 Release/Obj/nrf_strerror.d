@@ -1,5 +1,5 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_strerror.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/strerror/nrf_strerror.c \
+ /home/noah/uchu/MSD/components/libraries/strerror/nrf_strerror.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.22/include/stdbool.h \
@@ -27,5 +27,5 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/nrf_strerror.o: \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/libraries/strerror/nrf_strerror.h \
+ /home/noah/uchu/MSD/components/libraries/strerror/nrf_strerror.h \
  ../../../../../../components/libraries/util/sdk_errors.h

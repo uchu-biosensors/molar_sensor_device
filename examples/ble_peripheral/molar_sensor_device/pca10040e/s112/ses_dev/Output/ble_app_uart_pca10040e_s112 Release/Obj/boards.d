@@ -1,6 +1,6 @@
 Output/ble_app_uart_pca10040e_s112\ Release/Obj/boards.o: \
- /home/noah/uchu/DEV_NRF5_SDK/components/boards/boards.c \
- /home/noah/uchu/DEV_NRF5_SDK/components/boards/boards.h \
+ /home/noah/uchu/MSD/components/boards/boards.c \
+ /home/noah/uchu/MSD/components/boards/boards.h \
  ../../../../../../modules/nrfx/hal/nrf_gpio.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
@@ -49,4 +49,4 @@ Output/ble_app_uart_pca10040e_s112\ Release/Obj/boards.o: \
  ../../../../../../components/libraries/util/sdk_resources.h \
  ../../../../../../components/softdevice/s112/headers/nrf_sd_def.h \
  ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
- /home/noah/uchu/DEV_NRF5_SDK/components/boards/pca10040.h
+ /home/noah/uchu/MSD/components/boards/pca10040.h
